@@ -1272,8 +1272,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>x0f5oqfvod</Fingerprint>
-      <Integrity>r7QY6Dlq5nWhs7iFtgniI3iNxTzgKdMB/JGCpp0HB1M=</Integrity>
+      <Fingerprint>uyuqzxzpm2</Fingerprint>
+      <Integrity>ukkbX2ELGhTeuExzNVagIcfGx8rLDtO9LLCL60mgS6w=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\react\dist\homePage.bundle.js'))</OriginalItemSpec>
@@ -2046,8 +2046,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>lvwnurl597</Fingerprint>
-      <Integrity>zz/GXpKHL/Sa21CMn77zuAbJHoSSk+LA9CrVvN9d8bA=</Integrity>
+      <Fingerprint>p6t80y71wt</Fingerprint>
+      <Integrity>P0LE0uuvVa+O8S7cyrO4RC8RCI59N0J7M4ncEuSxZpY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\react\ReactScripts\Employer\ManageJob\JobSummaryCard.jsx'))</OriginalItemSpec>
@@ -2064,11 +2064,29 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>wmon97orag</Fingerprint>
-      <Integrity>eEGWxmfyvbgO+Acc7KFCAjpGzoJ9oknHE8dwom0IzB4=</Integrity>
+      <Fingerprint>dnz1l3enle</Fingerprint>
+      <Integrity>R9RsoI3ltMjKhKYfPQbb0910gFOy/5mld2LL5EmH5eE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\react\ReactScripts\Employer\ManageJob\ManageJob.jsx'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\react\ReactScripts\Employer\ManageJob\ManageJob.1.jsx'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Talent.App.WebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Talent.App.WebApp</BasePath>
+      <RelativePath>js/react/ReactScripts/Employer/ManageJob/ManageJob.1.jsx</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>5ipweew5fc</Fingerprint>
+      <Integrity>47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\react\ReactScripts\Employer\ManageJob\ManageJob.1.jsx'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\react\ReactScripts\EmployerFeed.js'))">
       <SourceType>Package</SourceType>
@@ -2592,6 +2610,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\react\ReactScripts\Layout\NavigationDropdown.jsx'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\react\ReactScripts\Layout\newFile.jsx'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Talent.App.WebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Talent.App.WebApp</BasePath>
+      <RelativePath>js/react/ReactScripts/Layout/newFile.jsx</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>5ipweew5fc</Fingerprint>
+      <Integrity>47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\react\ReactScripts\Layout\newFile.jsx'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\react\ReactScripts\Layout\Vision.jsx'))">
       <SourceType>Package</SourceType>
       <SourceId>Talent.App.WebApp</SourceId>
@@ -2676,8 +2712,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>yorbn0ch0f</Fingerprint>
-      <Integrity>8tdYGnqntCIlQY4McXByoTbF4j7MpNTjRpvczmU/ypI=</Integrity>
+      <Fingerprint>vawwjlufav</Fingerprint>
+      <Integrity>eY3C7JDATgbrnKb82C4tXInAmBI8dwOeD6yWlCyVH7U=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\react\ReactScripts\Profile\ContactDetail.jsx'))</OriginalItemSpec>

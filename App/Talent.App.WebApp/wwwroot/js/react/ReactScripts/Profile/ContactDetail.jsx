@@ -10,6 +10,7 @@ export class IndividualDetailSection extends Component {
             Object.assign({}, props.details)
             : {
                 firstName: "",
+                lastName: "",
                 email: "",
                 phone: ""
             }
@@ -80,10 +81,10 @@ export class IndividualDetailSection extends Component {
                     inputType="text"
                     label="Last Name"
                     name="lastName"
-                    value={this.state.newContact.firstName}
+                    value={this.state.newContact.lastName}
                     controlFunc={this.handleChange}
                     maxLength={80}
-                    placeholder="Enter your lasr name"
+                    placeholder="Enter your last name"
                     errorMessage="Please enter a valid last name"
                 />
                 <ChildSingleInput
@@ -117,6 +118,7 @@ export class IndividualDetailSection extends Component {
     renderDisplay() {
 
         let firstName = this.props.details ? `${this.props.details.firstName}` : ""
+        let lastName = this.props.details ? `${this.props.details.lastName}` : ""
         let email = this.props.details ? this.props.details.email : ""
         let phone = this.props.details ? this.props.details.phone : ""
 
@@ -124,7 +126,9 @@ export class IndividualDetailSection extends Component {
             <div className='row'>
                 <div className="ui sixteen wide column">
                     <React.Fragment>
-                        <p>Name: {firstName}</p>
+                        <p>First Name: {firstName}</p>
+                        <p>Last Name: {lastName}</p>
+                        <p>Full Name: {firstName} {lastName}</p>
                         <p>Email: {email}</p>
                         <p>Phone: {phone}</p>
                     </React.Fragment>
@@ -261,7 +265,7 @@ export class CompanyDetailSection extends Component {
                         <p>Phone: {phone}</p>
                         <p> Location: {location.city}, {location.country}</p>
                     </React.Fragment>
-                    <button type="button" className="ui right floated teal button">Edit</button>
+                    <button type="button" className="ui right floated teal button"onClick={this.openEdit}>Edit</button>
                 </div>
             </div>
         )

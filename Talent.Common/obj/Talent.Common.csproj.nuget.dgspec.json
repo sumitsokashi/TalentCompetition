@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\choug\\Desktop\\Task IC\\talent-competition\\Talent.Common\\Talent.Common.csproj": {}
+    "C:\\Users\\choug\\Desktop\\Task IC\\talent-competition-github\\TalentCompetition\\Talent.Common\\Talent.Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\choug\\Desktop\\Task IC\\talent-competition\\Talent.Common\\Talent.Common.csproj": {
+    "C:\\Users\\choug\\Desktop\\Task IC\\talent-competition-github\\TalentCompetition\\Talent.Common\\Talent.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\choug\\Desktop\\Task IC\\talent-competition\\Talent.Common\\Talent.Common.csproj",
+        "projectUniqueName": "C:\\Users\\choug\\Desktop\\Task IC\\talent-competition-github\\TalentCompetition\\Talent.Common\\Talent.Common.csproj",
         "projectName": "Talent.Common",
-        "projectPath": "C:\\Users\\choug\\Desktop\\Task IC\\talent-competition\\Talent.Common\\Talent.Common.csproj",
+        "projectPath": "C:\\Users\\choug\\Desktop\\Task IC\\talent-competition-github\\TalentCompetition\\Talent.Common\\Talent.Common.csproj",
         "packagesPath": "C:\\Users\\choug\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\choug\\Desktop\\Task IC\\talent-competition\\Talent.Common\\obj\\",
+        "outputPath": "C:\\Users\\choug\\Desktop\\Task IC\\talent-competition-github\\TalentCompetition\\Talent.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

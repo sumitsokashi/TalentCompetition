@@ -13,6 +13,7 @@ using Talent.Common.Contracts;
 using MongoDB.Driver;
 using Talent.Services.Listing.Domain.Contracts;
 using Talent.Services.Profile.Domain.Contracts;
+using System.Diagnostics;
 
 namespace Talent.Services.Listing.Controllers
 {
@@ -49,7 +50,7 @@ namespace Talent.Services.Listing.Controllers
 
         [HttpPost("createUpdateJob")]
         [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "employer, recruiter")]
-        public IActionResult CreateUpdateJob([FromBody]Job jobData)
+        public IActionResult CreateUpdateJob([FromBody] Job jobData)
         {
             try
             {
@@ -149,13 +150,15 @@ namespace Talent.Services.Listing.Controllers
 
         [HttpGet("getEmployerJobs")]
         [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "employer, recruiter")]
-        public async Task<IActionResult> GetEmployerJobs(string employerId=null)
+        public async Task<IActionResult> GetEmployerJobs(int activePage, string employerId = null, int limit = 6)
         {
             try
             {
-                employerId =employerId==null? _userAppContext.CurrentUserId:employerId;
-                var myJobs = (await _jobService.GetEmployerJobsAsync(employerId)).Select(x => new { x.Id, x.Title, x.Summary, x.JobDetails.Location, x.Status, noOfSuggestions=x.TalentSuggestions!=null && x.TalentSuggestions.Count!=0 ?x.TalentSuggestions.Count:0 });
-                return Json(new { Success = true, MyJobs = myJobs });
+                employerId = employerId == null ? _userAppContext.CurrentUserId : employerId;
+                var myJobs = await _jobService.GetEmployerJobsAsync(employerId);
+                var filteredJobs = myJobs.Skip((activePage - 1) * limit).Take(limit)
+                    .Select(x => new { x.Id, x.Title, x.Summary, x.JobDetails.Location, x.ExpiryDate, x.Status, noOfSuggestions = x.TalentSuggestions != null && x.TalentSuggestions.Count != 0 ? x.TalentSuggestions.Count : 0 });
+                return Json(new { Success = true, MyJobs = filteredJobs, TotalCount = myJobs.Count(), PageSize = limit });
             }
             catch
             {
@@ -165,8 +168,10 @@ namespace Talent.Services.Listing.Controllers
 
         [HttpGet("getSortedEmployerJobs")]
         [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "employer, recruiter")]
+
         public async Task<IActionResult> GetSortedEmployerJobs(int activePage, string sortbyDate, bool showActive, bool showClosed, bool showDraft, bool showExpired, bool showUnexpired, string employerId = null, int limit = 6)
         {
+
             try
             {
                 employerId = employerId == null ? _userAppContext.CurrentUserId : employerId;
@@ -177,7 +182,7 @@ namespace Talent.Services.Listing.Controllers
                     sortedJobs = sortedJobs.Where(x => x.Status != JobStatus.Active);
                 }
 
-                if(!showClosed)
+                if (!showClosed)
                 {
                     sortedJobs = sortedJobs.Where(x => x.Status != JobStatus.Closed);
                 }
@@ -202,15 +207,15 @@ namespace Talent.Services.Listing.Controllers
                 {
                     var returnJobs = sortedJobs.OrderByDescending(x => x.CreatedOn).Skip((activePage - 1) * limit).Take(limit)
                         .Select(x => new { x.Id, x.Title, x.Summary, x.JobDetails.Location, x.ExpiryDate, x.Status, noOfSuggestions = x.TalentSuggestions != null && x.TalentSuggestions.Count != 0 ? x.TalentSuggestions.Count : 0 });
-                    return Json(new { Success = true, MyJobs = returnJobs, TotalCount = sortedJobs.Count() });
+                    return Json(new { Success = true, MyJobs = returnJobs, TotalCount = sortedJobs.Count(), PageSize = limit });
                 }
 
                 else
                 {
                     var returnJobs = sortedJobs.OrderBy(x => x.CreatedOn).Skip((activePage - 1) * limit).Take(limit)
                         .Select(x => new { x.Id, x.Title, x.Summary, x.JobDetails.Location, x.ExpiryDate, x.Status, noOfSuggestions = x.TalentSuggestions != null && x.TalentSuggestions.Count != 0 ? x.TalentSuggestions.Count : 0 });
-                    return Json(new { Success = true, MyJobs = returnJobs, TotalCount = sortedJobs.Count() });
-                }                
+                    return Json(new { Success = true, MyJobs = returnJobs, TotalCount = sortedJobs.Count(), PageSize = limit });
+                }
             }
             catch
             {
@@ -219,13 +224,13 @@ namespace Talent.Services.Listing.Controllers
         }
         [HttpPost("closeJob")]
         [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "employer, recruiter")]
-        public async Task<IActionResult> CloseJob([FromBody]string id)
+        public async Task<IActionResult> CloseJob([FromBody] string id)
         {
             try
             {
                 //userId is either Employer or Recruiter
                 string userId = (await _jobService.GetJobByIDAsync(id)).EmployerID;
-                
+
                 if (userId == _userAppContext.CurrentUserId)
                 {
                     var jobStatus = JobStatus.Closed;

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1yK/xVmFG4c=",
+  "dgSpecHash": "Tn+XDxRdslE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\choug\\Desktop\\Task IC\\talent-competition\\Talent.Api\\Talent.Api.csproj",
+  "projectFilePath": "C:\\Users\\choug\\Desktop\\Task IC\\talent-competition-github\\TalentCompetition\\Talent.Api\\Talent.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\choug\\.nuget\\packages\\awssdk.core\\3.7.400.40\\awssdk.core.3.7.400.40.nupkg.sha512",
     "C:\\Users\\choug\\.nuget\\packages\\awssdk.s3\\3.7.405.4\\awssdk.s3.3.7.405.4.nupkg.sha512",

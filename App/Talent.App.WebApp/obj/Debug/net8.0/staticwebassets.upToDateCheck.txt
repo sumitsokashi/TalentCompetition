@@ -111,6 +111,7 @@ wwwroot\js\react\ReactScripts\Employer\CreateJob\JobSummary.jsx
 wwwroot\js\react\ReactScripts\Employer\CreateJob\Location.jsx
 wwwroot\js\react\ReactScripts\Employer\CreateJob\Salary.jsx
 wwwroot\js\react\ReactScripts\Employer\ManageJob\JobSummaryCard.jsx
+wwwroot\js\react\ReactScripts\Employer\ManageJob\ManageJob.1.jsx
 wwwroot\js\react\ReactScripts\Employer\ManageJob\ManageJob.jsx
 wwwroot\js\react\ReactScripts\EmployerFeed.js
 wwwroot\js\react\ReactScripts\EmployerFeed\EmployerFeed.jsx
@@ -141,6 +142,7 @@ wwwroot\js\react\ReactScripts\Layout\HomePage.jsx
 wwwroot\js\react\ReactScripts\Layout\LoggedInNavigation.jsx
 wwwroot\js\react\ReactScripts\Layout\NavigationBar.jsx
 wwwroot\js\react\ReactScripts\Layout\NavigationDropdown.jsx
+wwwroot\js\react\ReactScripts\Layout\newFile.jsx
 wwwroot\js\react\ReactScripts\Layout\Vision.jsx
 wwwroot\js\react\ReactScripts\ListingManagement.js
 wwwroot\js\react\ReactScripts\Profile\AccountProfile.jsx

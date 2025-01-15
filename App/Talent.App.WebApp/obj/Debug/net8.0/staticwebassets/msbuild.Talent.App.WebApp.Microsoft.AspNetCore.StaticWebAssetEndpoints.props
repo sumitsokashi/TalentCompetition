@@ -843,14 +843,14 @@
     <StaticWebAssetEndpoint Include="_content/Talent.App.WebApp/js/react/dist/homePage.bundle.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\react\dist\homePage.bundle.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-r7QY6Dlq5nWhs7iFtgniI3iNxTzgKdMB/JGCpp0HB1M="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"8064477"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022r7QY6Dlq5nWhs7iFtgniI3iNxTzgKdMB/JGCpp0HB1M=\u0022"},{"Name":"Last-Modified","Value":"Tue, 24 Dec 2024 14:21:44 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ukkbX2ELGhTeuExzNVagIcfGx8rLDtO9LLCL60mgS6w="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"8092550"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ukkbX2ELGhTeuExzNVagIcfGx8rLDtO9LLCL60mgS6w=\u0022"},{"Name":"Last-Modified","Value":"Sun, 12 Jan 2025 17:52:34 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Talent.App.WebApp/js/react/dist/homePage.bundle.x0f5oqfvod.js">
+    <StaticWebAssetEndpoint Include="_content/Talent.App.WebApp/js/react/dist/homePage.bundle.uyuqzxzpm2.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\react\dist\homePage.bundle.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"x0f5oqfvod"},{"Name":"integrity","Value":"sha256-r7QY6Dlq5nWhs7iFtgniI3iNxTzgKdMB/JGCpp0HB1M="},{"Name":"label","Value":"_content/Talent.App.WebApp/js/react/dist/homePage.bundle.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"8064477"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022r7QY6Dlq5nWhs7iFtgniI3iNxTzgKdMB/JGCpp0HB1M=\u0022"},{"Name":"Last-Modified","Value":"Tue, 24 Dec 2024 14:21:44 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"uyuqzxzpm2"},{"Name":"integrity","Value":"sha256-ukkbX2ELGhTeuExzNVagIcfGx8rLDtO9LLCL60mgS6w="},{"Name":"label","Value":"_content/Talent.App.WebApp/js/react/dist/homePage.bundle.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"8092550"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ukkbX2ELGhTeuExzNVagIcfGx8rLDtO9LLCL60mgS6w=\u0022"},{"Name":"Last-Modified","Value":"Sun, 12 Jan 2025 17:52:34 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Talent.App.WebApp/js/react/dist/listingManagement.bundle.frmkkegdcg.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\react\dist\listingManagement.bundle.js'))</AssetFile>
@@ -1264,13 +1264,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\react\ReactScripts\Employer\CreateJob\CreateJob.jsx'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"fic75usvlb"},{"Name":"integrity","Value":"sha256-Fxh1PciZjch9dJ7csNiqT0nxpS2yTgh9c94bQmNOPgM="},{"Name":"label","Value":"_content/Talent.App.WebApp/js/react/ReactScripts/Employer/CreateJob/CreateJob.jsx"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9935"},{"Name":"Content-Type","Value":"text/jscript"},{"Name":"ETag","Value":"\u0022Fxh1PciZjch9dJ7csNiqT0nxpS2yTgh9c94bQmNOPgM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Dec 2024 16:12:11 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9935"},{"Name":"Content-Type","Value":"text/jscript"},{"Name":"ETag","Value":"\u0022Fxh1PciZjch9dJ7csNiqT0nxpS2yTgh9c94bQmNOPgM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 25 Dec 2024 18:33:55 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Talent.App.WebApp/js/react/ReactScripts/Employer/CreateJob/CreateJob.jsx">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\react\ReactScripts\Employer\CreateJob\CreateJob.jsx'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Fxh1PciZjch9dJ7csNiqT0nxpS2yTgh9c94bQmNOPgM="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"9935"},{"Name":"Content-Type","Value":"text/jscript"},{"Name":"ETag","Value":"\u0022Fxh1PciZjch9dJ7csNiqT0nxpS2yTgh9c94bQmNOPgM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Dec 2024 16:12:11 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"9935"},{"Name":"Content-Type","Value":"text/jscript"},{"Name":"ETag","Value":"\u0022Fxh1PciZjch9dJ7csNiqT0nxpS2yTgh9c94bQmNOPgM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 25 Dec 2024 18:33:55 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Talent.App.WebApp/js/react/ReactScripts/Employer/CreateJob/JobApplicant.jsx">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\react\ReactScripts\Employer\CreateJob\JobApplicant.jsx'))</AssetFile>
@@ -1300,25 +1300,25 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\react\ReactScripts\Employer\CreateJob\JobDescription.jsx'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7QhsE\u002BLta0rR0c0RL41y706sVH2QnwzhcIPNcH/2FFA="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1230"},{"Name":"Content-Type","Value":"text/jscript"},{"Name":"ETag","Value":"\u00227QhsE\u002BLta0rR0c0RL41y706sVH2QnwzhcIPNcH/2FFA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Dec 2024 16:12:11 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1230"},{"Name":"Content-Type","Value":"text/jscript"},{"Name":"ETag","Value":"\u00227QhsE\u002BLta0rR0c0RL41y706sVH2QnwzhcIPNcH/2FFA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 25 Dec 2024 21:11:48 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Talent.App.WebApp/js/react/ReactScripts/Employer/CreateJob/JobDescription.r6a6ivlomk.jsx">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\react\ReactScripts\Employer\CreateJob\JobDescription.jsx'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"r6a6ivlomk"},{"Name":"integrity","Value":"sha256-7QhsE\u002BLta0rR0c0RL41y706sVH2QnwzhcIPNcH/2FFA="},{"Name":"label","Value":"_content/Talent.App.WebApp/js/react/ReactScripts/Employer/CreateJob/JobDescription.jsx"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1230"},{"Name":"Content-Type","Value":"text/jscript"},{"Name":"ETag","Value":"\u00227QhsE\u002BLta0rR0c0RL41y706sVH2QnwzhcIPNcH/2FFA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Dec 2024 16:12:11 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1230"},{"Name":"Content-Type","Value":"text/jscript"},{"Name":"ETag","Value":"\u00227QhsE\u002BLta0rR0c0RL41y706sVH2QnwzhcIPNcH/2FFA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 25 Dec 2024 21:11:48 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Talent.App.WebApp/js/react/ReactScripts/Employer/CreateJob/JobDetailsCard.jsx">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\react\ReactScripts\Employer\CreateJob\JobDetailsCard.jsx'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-siFcS3sw/urOfsJpQFaz9p/O\u002BwgogbQYbEcE74KT2rQ="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"9321"},{"Name":"Content-Type","Value":"text/jscript"},{"Name":"ETag","Value":"\u0022siFcS3sw/urOfsJpQFaz9p/O\u002BwgogbQYbEcE74KT2rQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Dec 2024 16:12:11 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"9321"},{"Name":"Content-Type","Value":"text/jscript"},{"Name":"ETag","Value":"\u0022siFcS3sw/urOfsJpQFaz9p/O\u002BwgogbQYbEcE74KT2rQ=\u0022"},{"Name":"Last-Modified","Value":"Wed, 25 Dec 2024 21:13:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Talent.App.WebApp/js/react/ReactScripts/Employer/CreateJob/JobDetailsCard.u0bezf5334.jsx">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\react\ReactScripts\Employer\CreateJob\JobDetailsCard.jsx'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"u0bezf5334"},{"Name":"integrity","Value":"sha256-siFcS3sw/urOfsJpQFaz9p/O\u002BwgogbQYbEcE74KT2rQ="},{"Name":"label","Value":"_content/Talent.App.WebApp/js/react/ReactScripts/Employer/CreateJob/JobDetailsCard.jsx"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9321"},{"Name":"Content-Type","Value":"text/jscript"},{"Name":"ETag","Value":"\u0022siFcS3sw/urOfsJpQFaz9p/O\u002BwgogbQYbEcE74KT2rQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Dec 2024 16:12:11 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9321"},{"Name":"Content-Type","Value":"text/jscript"},{"Name":"ETag","Value":"\u0022siFcS3sw/urOfsJpQFaz9p/O\u002BwgogbQYbEcE74KT2rQ=\u0022"},{"Name":"Last-Modified","Value":"Wed, 25 Dec 2024 21:13:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Talent.App.WebApp/js/react/ReactScripts/Employer/CreateJob/JobSummary.59b3l62b4i.jsx">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\react\ReactScripts\Employer\CreateJob\JobSummary.jsx'))</AssetFile>
@@ -1359,26 +1359,38 @@
     <StaticWebAssetEndpoint Include="_content/Talent.App.WebApp/js/react/ReactScripts/Employer/ManageJob/JobSummaryCard.jsx">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\react\ReactScripts\Employer\ManageJob\JobSummaryCard.jsx'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-zz/GXpKHL/Sa21CMn77zuAbJHoSSk\u002BLA9CrVvN9d8bA="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"482"},{"Name":"Content-Type","Value":"text/jscript"},{"Name":"ETag","Value":"\u0022zz/GXpKHL/Sa21CMn77zuAbJHoSSk\u002BLA9CrVvN9d8bA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Dec 2024 16:12:11 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-P0LE0uuvVa\u002BO8S7cyrO4RC8RCI59N0J7M4ncEuSxZpY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"458"},{"Name":"Content-Type","Value":"text/jscript"},{"Name":"ETag","Value":"\u0022P0LE0uuvVa\u002BO8S7cyrO4RC8RCI59N0J7M4ncEuSxZpY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 25 Dec 2024 21:45:35 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Talent.App.WebApp/js/react/ReactScripts/Employer/ManageJob/JobSummaryCard.lvwnurl597.jsx">
+    <StaticWebAssetEndpoint Include="_content/Talent.App.WebApp/js/react/ReactScripts/Employer/ManageJob/JobSummaryCard.p6t80y71wt.jsx">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\react\ReactScripts\Employer\ManageJob\JobSummaryCard.jsx'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"lvwnurl597"},{"Name":"integrity","Value":"sha256-zz/GXpKHL/Sa21CMn77zuAbJHoSSk\u002BLA9CrVvN9d8bA="},{"Name":"label","Value":"_content/Talent.App.WebApp/js/react/ReactScripts/Employer/ManageJob/JobSummaryCard.jsx"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"482"},{"Name":"Content-Type","Value":"text/jscript"},{"Name":"ETag","Value":"\u0022zz/GXpKHL/Sa21CMn77zuAbJHoSSk\u002BLA9CrVvN9d8bA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Dec 2024 16:12:11 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"p6t80y71wt"},{"Name":"integrity","Value":"sha256-P0LE0uuvVa\u002BO8S7cyrO4RC8RCI59N0J7M4ncEuSxZpY="},{"Name":"label","Value":"_content/Talent.App.WebApp/js/react/ReactScripts/Employer/ManageJob/JobSummaryCard.jsx"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"458"},{"Name":"Content-Type","Value":"text/jscript"},{"Name":"ETag","Value":"\u0022P0LE0uuvVa\u002BO8S7cyrO4RC8RCI59N0J7M4ncEuSxZpY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 25 Dec 2024 21:45:35 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Talent.App.WebApp/js/react/ReactScripts/Employer/ManageJob/ManageJob.1.5ipweew5fc.jsx">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\react\ReactScripts\Employer\ManageJob\ManageJob.1.jsx'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5ipweew5fc"},{"Name":"integrity","Value":"sha256-47DEQpj8HBSa\u002B/TImW\u002B5JCeuQeRkm5NMpJWZG3hSuFU="},{"Name":"label","Value":"_content/Talent.App.WebApp/js/react/ReactScripts/Employer/ManageJob/ManageJob.1.jsx"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"0"},{"Name":"Content-Type","Value":"text/jscript"},{"Name":"ETag","Value":"\u002247DEQpj8HBSa\u002B/TImW\u002B5JCeuQeRkm5NMpJWZG3hSuFU=\u0022"},{"Name":"Last-Modified","Value":"Wed, 01 Jan 2025 17:42:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Talent.App.WebApp/js/react/ReactScripts/Employer/ManageJob/ManageJob.1.jsx">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\react\ReactScripts\Employer\ManageJob\ManageJob.1.jsx'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-47DEQpj8HBSa\u002B/TImW\u002B5JCeuQeRkm5NMpJWZG3hSuFU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"0"},{"Name":"Content-Type","Value":"text/jscript"},{"Name":"ETag","Value":"\u002247DEQpj8HBSa\u002B/TImW\u002B5JCeuQeRkm5NMpJWZG3hSuFU=\u0022"},{"Name":"Last-Modified","Value":"Wed, 01 Jan 2025 17:42:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Talent.App.WebApp/js/react/ReactScripts/Employer/ManageJob/ManageJob.dnz1l3enle.jsx">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\react\ReactScripts\Employer\ManageJob\ManageJob.jsx'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"dnz1l3enle"},{"Name":"integrity","Value":"sha256-R9RsoI3ltMjKhKYfPQbb0910gFOy/5mld2LL5EmH5eE="},{"Name":"label","Value":"_content/Talent.App.WebApp/js/react/ReactScripts/Employer/ManageJob/ManageJob.jsx"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"12694"},{"Name":"Content-Type","Value":"text/jscript"},{"Name":"ETag","Value":"\u0022R9RsoI3ltMjKhKYfPQbb0910gFOy/5mld2LL5EmH5eE=\u0022"},{"Name":"Last-Modified","Value":"Sun, 12 Jan 2025 17:54:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Talent.App.WebApp/js/react/ReactScripts/Employer/ManageJob/ManageJob.jsx">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\react\ReactScripts\Employer\ManageJob\ManageJob.jsx'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-eEGWxmfyvbgO\u002BAcc7KFCAjpGzoJ9oknHE8dwom0IzB4="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2705"},{"Name":"Content-Type","Value":"text/jscript"},{"Name":"ETag","Value":"\u0022eEGWxmfyvbgO\u002BAcc7KFCAjpGzoJ9oknHE8dwom0IzB4=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Dec 2024 16:12:11 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Talent.App.WebApp/js/react/ReactScripts/Employer/ManageJob/ManageJob.wmon97orag.jsx">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\react\ReactScripts\Employer\ManageJob\ManageJob.jsx'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wmon97orag"},{"Name":"integrity","Value":"sha256-eEGWxmfyvbgO\u002BAcc7KFCAjpGzoJ9oknHE8dwom0IzB4="},{"Name":"label","Value":"_content/Talent.App.WebApp/js/react/ReactScripts/Employer/ManageJob/ManageJob.jsx"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2705"},{"Name":"Content-Type","Value":"text/jscript"},{"Name":"ETag","Value":"\u0022eEGWxmfyvbgO\u002BAcc7KFCAjpGzoJ9oknHE8dwom0IzB4=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Dec 2024 16:12:11 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-R9RsoI3ltMjKhKYfPQbb0910gFOy/5mld2LL5EmH5eE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"12694"},{"Name":"Content-Type","Value":"text/jscript"},{"Name":"ETag","Value":"\u0022R9RsoI3ltMjKhKYfPQbb0910gFOy/5mld2LL5EmH5eE=\u0022"},{"Name":"Last-Modified","Value":"Sun, 12 Jan 2025 17:54:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Talent.App.WebApp/js/react/ReactScripts/EmployerFeed.jqeg3vvodf.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\react\ReactScripts\EmployerFeed.js'))</AssetFile>
@@ -1696,13 +1708,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\react\ReactScripts\Layout\LoggedInNavigation.jsx'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-t87MKmNA5vidv2NtjBPvpLFgrqysI1du/Tpk\u002BoxjnVw="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4520"},{"Name":"Content-Type","Value":"text/jscript"},{"Name":"ETag","Value":"\u0022t87MKmNA5vidv2NtjBPvpLFgrqysI1du/Tpk\u002BoxjnVw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Dec 2024 16:12:11 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4520"},{"Name":"Content-Type","Value":"text/jscript"},{"Name":"ETag","Value":"\u0022t87MKmNA5vidv2NtjBPvpLFgrqysI1du/Tpk\u002BoxjnVw=\u0022"},{"Name":"Last-Modified","Value":"Tue, 24 Dec 2024 19:04:37 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Talent.App.WebApp/js/react/ReactScripts/Layout/LoggedInNavigation.tfxctcdxp4.jsx">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\react\ReactScripts\Layout\LoggedInNavigation.jsx'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"tfxctcdxp4"},{"Name":"integrity","Value":"sha256-t87MKmNA5vidv2NtjBPvpLFgrqysI1du/Tpk\u002BoxjnVw="},{"Name":"label","Value":"_content/Talent.App.WebApp/js/react/ReactScripts/Layout/LoggedInNavigation.jsx"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4520"},{"Name":"Content-Type","Value":"text/jscript"},{"Name":"ETag","Value":"\u0022t87MKmNA5vidv2NtjBPvpLFgrqysI1du/Tpk\u002BoxjnVw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Dec 2024 16:12:11 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4520"},{"Name":"Content-Type","Value":"text/jscript"},{"Name":"ETag","Value":"\u0022t87MKmNA5vidv2NtjBPvpLFgrqysI1du/Tpk\u002BoxjnVw=\u0022"},{"Name":"Last-Modified","Value":"Tue, 24 Dec 2024 19:04:37 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Talent.App.WebApp/js/react/ReactScripts/Layout/NavigationBar.jsx">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\react\ReactScripts\Layout\NavigationBar.jsx'))</AssetFile>
@@ -1727,6 +1739,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-cPCcsas55T2T7vaUpP9KovVeC7A0XHlCt\u002BxcJ/waGBU="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1210"},{"Name":"Content-Type","Value":"text/jscript"},{"Name":"ETag","Value":"\u0022cPCcsas55T2T7vaUpP9KovVeC7A0XHlCt\u002BxcJ/waGBU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Dec 2024 16:12:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Talent.App.WebApp/js/react/ReactScripts/Layout/newFile.5ipweew5fc.jsx">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\react\ReactScripts\Layout\newFile.jsx'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5ipweew5fc"},{"Name":"integrity","Value":"sha256-47DEQpj8HBSa\u002B/TImW\u002B5JCeuQeRkm5NMpJWZG3hSuFU="},{"Name":"label","Value":"_content/Talent.App.WebApp/js/react/ReactScripts/Layout/newFile.jsx"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"0"},{"Name":"Content-Type","Value":"text/jscript"},{"Name":"ETag","Value":"\u002247DEQpj8HBSa\u002B/TImW\u002B5JCeuQeRkm5NMpJWZG3hSuFU=\u0022"},{"Name":"Last-Modified","Value":"Tue, 24 Dec 2024 19:04:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Talent.App.WebApp/js/react/ReactScripts/Layout/newFile.jsx">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\react\ReactScripts\Layout\newFile.jsx'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-47DEQpj8HBSa\u002B/TImW\u002B5JCeuQeRkm5NMpJWZG3hSuFU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"0"},{"Name":"Content-Type","Value":"text/jscript"},{"Name":"ETag","Value":"\u002247DEQpj8HBSa\u002B/TImW\u002B5JCeuQeRkm5NMpJWZG3hSuFU=\u0022"},{"Name":"Last-Modified","Value":"Tue, 24 Dec 2024 19:04:16 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Talent.App.WebApp/js/react/ReactScripts/Layout/Vision.c7s693tctf.jsx">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\react\ReactScripts\Layout\Vision.jsx'))</AssetFile>
@@ -1779,14 +1803,14 @@
     <StaticWebAssetEndpoint Include="_content/Talent.App.WebApp/js/react/ReactScripts/Profile/ContactDetail.jsx">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\react\ReactScripts\Profile\ContactDetail.jsx'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-8tdYGnqntCIlQY4McXByoTbF4j7MpNTjRpvczmU/ypI="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"9359"},{"Name":"Content-Type","Value":"text/jscript"},{"Name":"ETag","Value":"\u00228tdYGnqntCIlQY4McXByoTbF4j7MpNTjRpvczmU/ypI=\u0022"},{"Name":"Last-Modified","Value":"Tue, 24 Dec 2024 14:21:42 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-eY3C7JDATgbrnKb82C4tXInAmBI8dwOeD6yWlCyVH7U="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"9563"},{"Name":"Content-Type","Value":"text/jscript"},{"Name":"ETag","Value":"\u0022eY3C7JDATgbrnKb82C4tXInAmBI8dwOeD6yWlCyVH7U=\u0022"},{"Name":"Last-Modified","Value":"Wed, 25 Dec 2024 17:58:47 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Talent.App.WebApp/js/react/ReactScripts/Profile/ContactDetail.yorbn0ch0f.jsx">
+    <StaticWebAssetEndpoint Include="_content/Talent.App.WebApp/js/react/ReactScripts/Profile/ContactDetail.vawwjlufav.jsx">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\react\ReactScripts\Profile\ContactDetail.jsx'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yorbn0ch0f"},{"Name":"integrity","Value":"sha256-8tdYGnqntCIlQY4McXByoTbF4j7MpNTjRpvczmU/ypI="},{"Name":"label","Value":"_content/Talent.App.WebApp/js/react/ReactScripts/Profile/ContactDetail.jsx"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9359"},{"Name":"Content-Type","Value":"text/jscript"},{"Name":"ETag","Value":"\u00228tdYGnqntCIlQY4McXByoTbF4j7MpNTjRpvczmU/ypI=\u0022"},{"Name":"Last-Modified","Value":"Tue, 24 Dec 2024 14:21:42 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vawwjlufav"},{"Name":"integrity","Value":"sha256-eY3C7JDATgbrnKb82C4tXInAmBI8dwOeD6yWlCyVH7U="},{"Name":"label","Value":"_content/Talent.App.WebApp/js/react/ReactScripts/Profile/ContactDetail.jsx"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9563"},{"Name":"Content-Type","Value":"text/jscript"},{"Name":"ETag","Value":"\u0022eY3C7JDATgbrnKb82C4tXInAmBI8dwOeD6yWlCyVH7U=\u0022"},{"Name":"Last-Modified","Value":"Wed, 25 Dec 2024 17:58:47 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Talent.App.WebApp/js/react/ReactScripts/Profile/CVUpload.ippl6wwtdt.jsx">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\react\ReactScripts\Profile\CVUpload.jsx'))</AssetFile>
@@ -1828,13 +1852,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\react\ReactScripts\Profile\EmployerProfile.jsx'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Qxn6U/QH6ExAIt/swj1E\u002BERziyLuR5M/j7ThFbn6g54="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"9710"},{"Name":"Content-Type","Value":"text/jscript"},{"Name":"ETag","Value":"\u0022Qxn6U/QH6ExAIt/swj1E\u002BERziyLuR5M/j7ThFbn6g54=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Dec 2024 16:12:11 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"9710"},{"Name":"Content-Type","Value":"text/jscript"},{"Name":"ETag","Value":"\u0022Qxn6U/QH6ExAIt/swj1E\u002BERziyLuR5M/j7ThFbn6g54=\u0022"},{"Name":"Last-Modified","Value":"Thu, 26 Dec 2024 14:49:09 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Talent.App.WebApp/js/react/ReactScripts/Profile/EmployerProfile.v5v2jv0din.jsx">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\react\ReactScripts\Profile\EmployerProfile.jsx'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"v5v2jv0din"},{"Name":"integrity","Value":"sha256-Qxn6U/QH6ExAIt/swj1E\u002BERziyLuR5M/j7ThFbn6g54="},{"Name":"label","Value":"_content/Talent.App.WebApp/js/react/ReactScripts/Profile/EmployerProfile.jsx"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9710"},{"Name":"Content-Type","Value":"text/jscript"},{"Name":"ETag","Value":"\u0022Qxn6U/QH6ExAIt/swj1E\u002BERziyLuR5M/j7ThFbn6g54=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Dec 2024 16:12:11 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9710"},{"Name":"Content-Type","Value":"text/jscript"},{"Name":"ETag","Value":"\u0022Qxn6U/QH6ExAIt/swj1E\u002BERziyLuR5M/j7ThFbn6g54=\u0022"},{"Name":"Last-Modified","Value":"Thu, 26 Dec 2024 14:49:09 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Talent.App.WebApp/js/react/ReactScripts/Profile/Experience.jsx">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\react\ReactScripts\Profile\Experience.jsx'))</AssetFile>

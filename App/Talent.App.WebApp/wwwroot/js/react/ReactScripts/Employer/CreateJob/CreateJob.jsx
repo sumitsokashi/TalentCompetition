@@ -60,9 +60,7 @@ export default class CreateJob extends React.Component {
     };
 
     loadData() {
-        //const root = "" 
-        //var param = root.getAttribute('data-id');
-        var param = this.props.match.params.id ? this.props.match.params.id : "";//workaround till we get Redux in to keep the page from breaking
+        var param = this.props.match.params.id ? this.props.match.params.id : "";
         var copyJobParam = this.props.match.params.copyId ? this.props.match.params.copyId : "";
 
         if (param != "" || copyJobParam != "") {
@@ -95,9 +93,6 @@ export default class CreateJob extends React.Component {
     }
     addUpdateJob() {
         var jobData = this.state.jobData;
-        console.log("data to save:", jobData);
-        //jobData.jobDetails.startDate = jobData.jobDetails.startDate.toDate();
-        console.log("date:", jobData.jobDetails.startDate);
         var cookies = Cookies.get('talentAuthToken');   
         $.ajax({
             url: 'http://localhost:51689/listing/listing/createUpdateJob',

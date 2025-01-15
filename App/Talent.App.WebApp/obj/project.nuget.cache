@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NWL/pYLgVsI=",
+  "dgSpecHash": "jvNA9ZZctVk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\choug\\Desktop\\Task IC\\talent-competition\\App\\Talent.App.WebApp\\Talent.App.WebApp.csproj",
+  "projectFilePath": "C:\\Users\\choug\\Desktop\\Task IC\\talent-competition-github\\TalentCompetition\\App\\Talent.App.WebApp\\Talent.App.WebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\choug\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\choug\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

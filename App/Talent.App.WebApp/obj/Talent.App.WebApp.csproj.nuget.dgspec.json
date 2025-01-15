@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\choug\\Desktop\\Task IC\\talent-competition\\App\\Talent.App.WebApp\\Talent.App.WebApp.csproj": {}
+    "C:\\Users\\choug\\Desktop\\Task IC\\talent-competition-github\\TalentCompetition\\App\\Talent.App.WebApp\\Talent.App.WebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\choug\\Desktop\\Task IC\\talent-competition\\App\\Talent.App.WebApp\\Talent.App.WebApp.csproj": {
+    "C:\\Users\\choug\\Desktop\\Task IC\\talent-competition-github\\TalentCompetition\\App\\Talent.App.WebApp\\Talent.App.WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\choug\\Desktop\\Task IC\\talent-competition\\App\\Talent.App.WebApp\\Talent.App.WebApp.csproj",
+        "projectUniqueName": "C:\\Users\\choug\\Desktop\\Task IC\\talent-competition-github\\TalentCompetition\\App\\Talent.App.WebApp\\Talent.App.WebApp.csproj",
         "projectName": "Talent.App.WebApp",
-        "projectPath": "C:\\Users\\choug\\Desktop\\Task IC\\talent-competition\\App\\Talent.App.WebApp\\Talent.App.WebApp.csproj",
+        "projectPath": "C:\\Users\\choug\\Desktop\\Task IC\\talent-competition-github\\TalentCompetition\\App\\Talent.App.WebApp\\Talent.App.WebApp.csproj",
         "packagesPath": "C:\\Users\\choug\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\choug\\Desktop\\Task IC\\talent-competition\\App\\Talent.App.WebApp\\obj\\",
+        "outputPath": "C:\\Users\\choug\\Desktop\\Task IC\\talent-competition-github\\TalentCompetition\\App\\Talent.App.WebApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

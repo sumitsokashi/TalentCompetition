@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Talent.Services.Identity")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5bb211d0847cb350699e510eb378c93c268cd88")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a40eae90a5e063160b6333022e0bad45050b26d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Talent.Services.Identity")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Talent.Services.Identity")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
